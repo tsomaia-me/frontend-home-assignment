@@ -15,6 +15,16 @@ export async function fetchPackage(packageName: string) {
   return await response.json()
 }
 
+export async function fetchReadme(packageName: string) {
+  const response = await fetch(`${environment.packageDetailsApiBaseUrl}/${packageName}/README.md`)
+
+  if (!response.ok) {
+    return ''
+  }
+
+  return await response.text()
+}
+
 export async function fetchDownloadStats(packageName: string) {
   const numberOfDays = environment.numberOfDownloadStatsDays
   const days = Array(numberOfDays).fill(null).map((_, i) => numberOfDays + 1 - i)

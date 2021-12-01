@@ -1,7 +1,7 @@
 import { computed, flow, makeObservable, observable } from 'mobx'
 
 import { PackageDetails } from '../models'
-import { fetchDownloadStats, fetchPackage, searchPackages } from '../fetchers'
+import { fetchDownloadStats, fetchPackage, fetchReadme, searchPackages } from '../fetchers'
 
 class PackageStore {
   isTopLevelPackageLoading = false
@@ -45,6 +45,7 @@ class PackageStore {
     this.isTopLevelPackageLoading = true
     this.packages[packageName] = {
       package: yield fetchPackage(packageName),
+      readme: yield fetchReadme(packageName),
       downloadStats: yield fetchDownloadStats(packageName),
     }
     this.isTopLevelPackageLoading = false
@@ -53,6 +54,7 @@ class PackageStore {
   * loadPackageDetails(packageName: string): Generator<Promise<unknown>, void, any> {
     this.packages[packageName] = {
       package: yield fetchPackage(packageName),
+      readme: yield fetchReadme(packageName),
       downloadStats: observable([]),
     }
   }

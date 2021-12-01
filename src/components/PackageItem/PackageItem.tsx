@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
 
 import styles from './PackageItem.module.css'
 import { PackageDetails } from '../../models'
@@ -12,9 +13,17 @@ function PackageItem({ item }: PackageProps) {
   return (
     <article className={styles.root}>
       <div className={styles.main}>
-        <h2 className={styles.title}>{item.package.name}</h2>
-        <div>
-          {item.package.description || 'No description available for this package.'}
+        <div className={styles.contentWrapper}>
+          {item.readme ? (
+            <ReactMarkdown>
+              {item.readme}
+            </ReactMarkdown>
+          ) : (
+             <>
+               <h2 className={styles.title}>{item.package.name}</h2>
+               <div>{item.package.description || 'No description available for this package.'}</div>
+             </>
+           )}
         </div>
       </div>
 

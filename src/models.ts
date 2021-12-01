@@ -8,6 +8,7 @@ export interface Package {
 
 export interface PackageDetails {
   package: PackageJsonDetails
+  readme: string
   downloadStats: Array<number>
 }
 
