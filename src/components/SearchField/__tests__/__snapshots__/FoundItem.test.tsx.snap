@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FoundItem correctly 1`] = `
+<li
+  onClick={[Function]}
+  onMouseDown={[Function]}
+>
+  react
+</li>
+`;

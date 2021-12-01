@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders DependencyTreeItem correctly 1`] = `
+<li>
+  <div
+    className="left"
+  >
+    <span
+      className="material-icons"
+    >
+      expand_more
+    </span>
+    <span />
+  </div>
+</li>
+`;

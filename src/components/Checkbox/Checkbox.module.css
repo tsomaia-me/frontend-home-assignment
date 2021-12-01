@@ -1,0 +1,10 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0 8px 0;
+}
+
+.root > input {
+    margin-right: 4px;
+}

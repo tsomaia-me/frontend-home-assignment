@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SearchField correctly 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <input
+      className="root"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Search packages..."
+      type="search"
+      value=""
+    />
+    <ul
+      className="list"
+    />
+  </div>
+</div>
+`;

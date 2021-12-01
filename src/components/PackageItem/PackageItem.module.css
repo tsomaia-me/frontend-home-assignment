@@ -1,0 +1,39 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar {
+    min-width: 300px;
+    width: 40%;
+}
+
+.details {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.details > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.details > li > :last-child:not(:first-child) {
+    margin-left: 8px;
+}
+
+.details > li > a, .details > li > a:visited, .details > li > a:active {
+    color: #2196f3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.details > li > a:hover {
+    text-decoration: underline;
+}

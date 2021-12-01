@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PackageItem correctly 1`] = `
+<article
+  className="root"
+>
+  <div>
+    <h2>
+      test
+    </h2>
+    <div>
+      test description
+    </div>
+  </div>
+  <aside
+    className="sidebar"
+  >
+    <ul
+      className="details"
+    />
+    <div>
+      <h3>
+        --
+         downloads in the last week
+      </h3>
+      <canvas
+        height={150}
+        role="img"
+        width={300}
+      />
+    </div>
+  </aside>
+</article>
+`;

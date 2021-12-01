@@ -1,8 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="449da1ad-1088-4884-8eaf-2a8f8044f0dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/Checkbox.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/Checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/__tests__/Checkbox.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Checkbox/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DependencyTree/DependencyTree.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DependencyTree/DependencyTree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DependencyTree/DependencyTreeItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DependencyTree/__tests__/DependencyTree.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DependencyTree/__tests__/DependencyTreeItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DependencyTree/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/__tests__/Input.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoadingBurger/LoadingBurger.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoadingBurger/LoadingBurger.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoadingBurger/__tests__/LoadingBurger.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoadingBurger/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PackageItem/DownloadStats.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PackageItem/PackageItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PackageItem/PackageItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PackageItem/__tests__/DownloadStats.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PackageItem/__tests__/PackageItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PackageItem/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/FoundItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/FoundItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/SearchField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/__tests__/FoundItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/__tests__/FoundItems.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/__tests__/SearchField.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchField/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environment/environment.dev.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environment/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environment/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fetchers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDebouncedValue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useEnvironment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/usePackageStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/PackageStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/__tests__/PackageStore.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="21dwJzCC27CMhJsHK69GI6r8lsD" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/DependencyTree/__tests__" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/DependencyTree/__tests__" />
+      <recent name="$PROJECT_DIR$/src/components/DependencyTree" />
+      <recent name="$PROJECT_DIR$/src/components/Checkbox" />
+      <recent name="$PROJECT_DIR$/src/components/Input" />
+      <recent name="$PROJECT_DIR$/src/components/LoadingBurger/__tests__" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stores/__tests__" />
+      <recent name="$PROJECT_DIR$/src/components/SearchField/__tests__" />
+      <recent name="$PROJECT_DIR$/src/hooks" />
+      <recent name="$PROJECT_DIR$/src/components/SearchField" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.renders FoundItems correctly">
+    <configuration name="PackageStore" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/stores/PackageStore.test.ts" />
+      <test-names>
+        <test-name value="PackageStore" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders App correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
+      <test-names>
+        <test-name value="renders App correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders FoundItems correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/SearchField/__tests__/FoundItems.test.tsx" />
+      <test-names>
+        <test-name value="renders FoundItems correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders FoundItems correctly" />
+        <item itemvalue="Jest.renders App correctly" />
+        <item itemvalue="Jest.PackageStore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="449da1ad-1088-4884-8eaf-2a8f8044f0dc" name="Changes" comment="" />
+      <created>1638284204635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638284204635</updated>
+      <workItem from="1638284209877" duration="31313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>

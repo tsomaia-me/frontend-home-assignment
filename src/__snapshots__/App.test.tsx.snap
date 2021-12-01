@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App correctly 1`] = `
+<div
+  className="container"
+>
+  <header
+    className="header"
+  >
+    NPM Package Database
+  </header>
+  <section
+    className="middle"
+  >
+    <aside
+      className="sidebar"
+    >
+      <label
+        className="root"
+      >
+        <input
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <span>
+          Get entire tree
+        </span>
+      </label>
+      <div
+        className="tree"
+      >
+        <ul
+          className="root"
+        />
+      </div>
+    </aside>
+    <main
+      className="content"
+    >
+      <div
+        className="root"
+      >
+        <span
+          className="material-icons"
+        >
+          lunch_dining
+        </span>
+      </div>
+    </main>
+  </section>
+</div>
+`;

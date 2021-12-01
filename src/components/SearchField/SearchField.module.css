@@ -1,0 +1,44 @@
+.root {
+    position: relative;
+    height: 40px;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.container:focus-within {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.32);
+}
+
+.container > input {
+    background: transparent;
+    border: none;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-height: 0;
+    overflow-y: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.list > li {
+    padding: 8px 16px;
+    cursor: default;
+}
+
+.list > li:hover {
+    background-color: #e0e0e0;
+}
+
+.container:focus-within > .list {
+    max-height: 300px;
+}
