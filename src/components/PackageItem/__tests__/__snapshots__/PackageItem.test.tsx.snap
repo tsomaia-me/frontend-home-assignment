@@ -4,8 +4,12 @@ exports[`renders PackageItem correctly 1`] = `
 <article
   className="root"
 >
-  <div>
-    <h2>
+  <div
+    className="main"
+  >
+    <h2
+      className="title"
+    >
       test
     </h2>
     <div>
@@ -17,18 +21,21 @@ exports[`renders PackageItem correctly 1`] = `
   >
     <ul
       className="details"
-    />
-    <div>
-      <h3>
-        --
-         downloads in the last week
-      </h3>
-      <canvas
-        height={150}
-        role="img"
-        width={300}
-      />
-    </div>
+    >
+      <li>
+        <div>
+          <h3>
+            --
+             downloads in the last week
+          </h3>
+          <canvas
+            height={150}
+            role="img"
+            width={300}
+          />
+        </div>
+      </li>
+    </ul>
   </aside>
 </article>
 `;

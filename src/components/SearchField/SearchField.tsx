@@ -16,7 +16,7 @@ function SearchField() {
   const selectPackage = useCallback((packageName: string) => {
     (document.activeElement as HTMLInputElement | null)?.blur()
     setInput(packageName)
-    window.history.pushState({}, '', packageName)
+    window.history.pushState({}, '', '/' + packageName)
     packageStore.selectPackage(packageName)
   }, [packageStore])
   const handleKeyPress = useCallback((event: React.KeyboardEvent) => {

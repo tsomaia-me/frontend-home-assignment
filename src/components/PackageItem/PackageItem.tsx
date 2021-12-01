@@ -11,8 +11,8 @@ export interface PackageProps {
 function PackageItem({ item }: PackageProps) {
   return (
     <article className={styles.root}>
-      <div>
-        <h2>{item.package.name}</h2>
+      <div className={styles.main}>
+        <h2 className={styles.title}>{item.package.name}</h2>
         <div>
           {item.package.description || 'No description available for this package.'}
         </div>
@@ -42,8 +42,10 @@ function PackageItem({ item }: PackageProps) {
               <span>{item.package.license}</span>
             </li>
           )}
+          <li>
+            <DownloadStats downloadStats={item.downloadStats}/>
+          </li>
         </ul>
-        <DownloadStats downloadStats={item.downloadStats}/>
       </aside>
     </article>
   )
