@@ -2,6 +2,7 @@
 
 exports[`renders FoundItem correctly 1`] = `
 <li
+  className=""
   onClick={[Function]}
   onMouseDown={[Function]}
 >

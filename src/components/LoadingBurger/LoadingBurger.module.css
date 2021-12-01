@@ -9,7 +9,7 @@
 }
 
 .animated {
-    animation: loading 1s linear;
+    animation: loading 1s linear infinite;
 }
 
 .root > span {

@@ -15,6 +15,7 @@ function SearchField() {
   const handleInputChange = useCallback((e: ChangeEvent) => setInput((e.target as HTMLInputElement).value), [])
   const selectPackage = useCallback((packageName: string) => {
     (document.activeElement as HTMLInputElement | null)?.blur()
+    setInput(packageName)
     window.history.pushState({}, '', packageName)
     packageStore.selectPackage(packageName)
   }, [packageStore])
@@ -35,6 +36,7 @@ function SearchField() {
           type="search"
           placeholder="Search packages..."
           value={input}
+          className="search-field-input"
           onChange={handleInputChange}
           onKeyPress={handleKeyPress}
         />

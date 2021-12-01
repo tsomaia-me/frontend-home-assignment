@@ -8,7 +8,7 @@ exports[`renders SearchField correctly 1`] = `
     className="container"
   >
     <input
-      className="root"
+      className="search-field-input root"
       onChange={[Function]}
       onKeyPress={[Function]}
       placeholder="Search packages..."

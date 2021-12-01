@@ -16,17 +16,17 @@ export async function fetchPackage(packageName: string) {
 }
 
 export async function fetchDownloadStats(packageName: string) {
-  const data = []
-  const date = DateTime.now()
   const numberOfDays = environment.numberOfDownloadStatsDays
+  const days = Array(numberOfDays).fill(null).map((_, i) => numberOfDays + 1 - i)
+
+  return await Promise.all(days.map(dayOffset => fetchDownloadsBefore(packageName, dayOffset)))
+}
+
+export async function fetchDownloadsBefore(packageName: string, dayOffset: number) {
   const baseUrl = environment.packageStatsApiBaseUrl
+  const formattedDate = DateTime.now().minus({ day: dayOffset }).toISODate()
+  const response = await fetch(`${baseUrl}/${formattedDate}:${formattedDate}/${packageName}`)
+  const result = await response.json()
 
-  for (let offset = numberOfDays + 1; offset > 0; --offset) {
-    const formattedDate = date.minus({ day: offset }).toISODate()
-    const response = await fetch(`${baseUrl}/${formattedDate}:${formattedDate}/${packageName}`)
-    const result = await response.json()
-    data.push(result.downloads)
-  }
-
-  return data
+  return result.downloads
 }
